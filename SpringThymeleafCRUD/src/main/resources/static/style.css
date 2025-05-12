@@ -1,0 +1,15 @@
+/* Estilo para os links com a classe 'estilizado' */
+a.estilizado {
+    display: inline-block;       /* Para permitir aplicar padding e margens corretamente */
+    padding: 10px 15px;          /* Espaçamento interno */
+    background-color: #007BFF;   /* Cor de fundo */
+    color: white;                /* Cor do texto */
+    border: 2px solid #0056b3;   /* Borda do link */
+    text-decoration: none;       /* Remove o sublinhado */
+    border-radius: 5px;          /* Borda arredondada */
+    transition: background-color 0.3s; /* Efeito suave para a mudança de cor */
+}
+
+a.estilizado:hover {
+    background-color: #0056b3;   /* Cor de fundo quando passar o mouse */
+}
